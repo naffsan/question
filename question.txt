@@ -1,0 +1,6 @@
+bool tmpIsFinished = false; // PrintSomethingAndRreturnIsFinished 함수의 반환값을 대입할 지역변수
+            tmpIsFinished = PrintSomethingAndReturnIsFinished("efsdadsfdsf"); // PrintSomethingAndRreturnIsFinished 함수를 호출하고 반환값을 tmpIsFinished 에 대입
+            Console.WriteLine(tmpIsFinished); // 콘솔창에 tmpIsFinished 출력하여 PrintSomethingAndReturnIsFinished 함수 내용이 끝났다는 정보를 전달 받았다고 출력해줌
+        }
+->여기서 둘째 줄은 ""안에 있는 내용이 출력되는데 셋째 줄에서는 true가 출력되는 이유?
+
